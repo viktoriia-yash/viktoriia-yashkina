@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import RPSJSPreview from "../../../assets/rps-js.jpg";
 
-const Rps_js = () => {
+const RpsJs = () => {
   useEffect(() => {
     document.title = "Rock Paper Scissors — Viktoriia Yashkina";
   }, []);
@@ -40,6 +40,7 @@ const Rps_js = () => {
                 <a
                   href="https://viktoriia-yash.github.io/rock-paper-scissors-vanilla-js/"
                   className="importantLinks"
+                  rel="noreferrer"
                   target="_blank"
                 >
                   Live Preview
@@ -50,6 +51,7 @@ const Rps_js = () => {
                 <a
                   href="https://github.com/viktoriia-yash/rock-paper-scissors-vanilla-js"
                   className="importantLinks"
+                  rel="noreferrer"
                   target="_blank"
                 >
                   GitHub
@@ -69,4 +71,4 @@ const Rps_js = () => {
   );
 };
 
-export default Rps_js;
+export default RpsJs;

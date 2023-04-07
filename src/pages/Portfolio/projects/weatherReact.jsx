@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import WeatherReactPreview from "../../../assets/weather-react.jpg";
 
-const Weather_react = () => {
+const WeatherReact = () => {
   useEffect(() => {
     document.title = "Weather App — Viktoriia Yashkina";
   }, []);
@@ -60,6 +60,7 @@ const Weather_react = () => {
                 <a
                   href="https://effervescent-sable-d2e99c.netlify.app/"
                   className="importantLinks"
+                  rel="noreferrer"
                   target="_blank"
                 >
                   Live Preview
@@ -70,6 +71,7 @@ const Weather_react = () => {
                 <a
                   href="https://github.com/viktoriia-yash/weather-app-react"
                   className="importantLinks"
+                  rel="noreferrer"
                   target="_blank"
                 >
                   GitHub
@@ -80,6 +82,7 @@ const Weather_react = () => {
                 <a
                   href="https://www.shecodes.io/certificates/e17d8f7d1dfb6d8df4f61b5eab3aa39d"
                   className="importantLinks"
+                  rel="noreferrer"
                   target="_blank"
                 >
                   "SheCodes React"
@@ -100,4 +103,4 @@ const Weather_react = () => {
   );
 };
 
-export default Weather_react;
+export default WeatherReact;

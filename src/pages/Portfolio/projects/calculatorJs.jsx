@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import CalculatorPreview from "../../../assets/calculator-js.jpg";
 
-const Calculator_js = () => {
+const CalculatorJs = () => {
   useEffect(() => {
     document.title = "Calculator — Viktoriia Yashkina";
   }, []);
@@ -38,6 +38,7 @@ const Calculator_js = () => {
                 <a
                   href="https://superb-donut-123f5f.netlify.app/"
                   className="importantLinks"
+                  rel="noreferrer"
                   target="_blank"
                 >
                   Live Preview
@@ -48,6 +49,7 @@ const Calculator_js = () => {
                 <a
                   href="https://github.com/viktoriia-yash/calculator-vanilla-js"
                   className="importantLinks"
+                  rel="noreferrer"
                   target="_blank"
                 >
                   GitHub
@@ -67,4 +69,4 @@ const Calculator_js = () => {
   );
 };
 
-export default Calculator_js;
+export default CalculatorJs;

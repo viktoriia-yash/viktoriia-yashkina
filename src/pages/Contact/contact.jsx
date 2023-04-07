@@ -38,6 +38,7 @@ const Contact = () => {
               <p>
                 <a
                   href="https://www.linkedin.com/in/viktoriia-yashkina/"
+                  rel="noreferrer"
                   target="_blank"
                   className="importantLinks text-[18px] lg:text-[25px] font-bold"
                 >

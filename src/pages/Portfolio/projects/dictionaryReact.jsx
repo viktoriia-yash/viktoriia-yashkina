@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import DictionaryPreview from "../../../assets/dictionary-react.jpg";
 
-const Dictionary_react = () => {
+const DictionaryReact = () => {
   useEffect(() => {
     document.title = "Dictionary — Viktoriia Yashkina";
   }, []);
@@ -35,6 +35,7 @@ const Dictionary_react = () => {
                 <a
                   href="https://dictionaryapi.dev/"
                   className="importantLinks"
+                  rel="noreferrer"
                   target="_blank"
                 >
                   Free Dictionary API
@@ -48,6 +49,7 @@ const Dictionary_react = () => {
                 <a
                   href="https://incomparable-fairy-68dab3.netlify.app/"
                   className="importantLinks"
+                  rel="noreferrer"
                   target="_blank"
                 >
                   Live Preview
@@ -58,6 +60,7 @@ const Dictionary_react = () => {
                 <a
                   href="https://github.com/viktoriia-yash/dictionary-react"
                   className="importantLinks"
+                  rel="noreferrer"
                   target="_blank"
                 >
                   GitHub
@@ -77,4 +80,4 @@ const Dictionary_react = () => {
   );
 };
 
-export default Dictionary_react;
+export default DictionaryReact;

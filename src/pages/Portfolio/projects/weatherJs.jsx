@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import WeatherJSPreview from "../../../assets/weather-js.jpg";
 
-const Weather_js = () => {
+const WeatherJs = () => {
   useEffect(() => {
     document.title = "Weather App — Viktoriia Yashkina";
   }, []);
@@ -36,6 +36,7 @@ const Weather_js = () => {
                 <a
                   href="https://openweathermap.org/"
                   className="importantLinks"
+                  rel="noreferrer"
                   target="_blank"
                 >
                   OpenWeatherMap
@@ -49,6 +50,7 @@ const Weather_js = () => {
                 <a
                   href="https://marvelous-crumble-fa8f20.netlify.app/"
                   className="importantLinks"
+                  rel="noreferrer"
                   target="_blank"
                 >
                   Live Preview
@@ -59,6 +61,7 @@ const Weather_js = () => {
                 <a
                   href="https://github.com/viktoriia-yash/weather-app-vanilla-js"
                   className="importantLinks"
+                  rel="noreferrer"
                   target="_blank"
                 >
                   GitHub
@@ -69,6 +72,7 @@ const Weather_js = () => {
                 <a
                   href="https://www.shecodes.io/certificates/1187bf11df5df5020d21e4573a2ac874"
                   className="importantLinks"
+                  rel="noreferrer"
                   target="_blank"
                 >
                   "SheCodes Plus" certificate
@@ -88,4 +92,4 @@ const Weather_js = () => {
   );
 };
 
-export default Weather_js;
+export default WeatherJs;

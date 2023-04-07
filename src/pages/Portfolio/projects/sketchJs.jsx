@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import SketchJsPreview from "../../../assets/sketch-js.jpg";
 
-const Sketch_js = () => {
+const SketchJs = () => {
   useEffect(() => {
     document.title = "Etch-A-Sketch — Viktoriia Yashkina";
   }, []);
@@ -50,6 +50,7 @@ const Sketch_js = () => {
                 <a
                   href="https://sweet-rugelach-791a62.netlify.app/"
                   className="importantLinks"
+                  rel="noreferrer"
                   target="_blank"
                 >
                   Live Preview
@@ -60,6 +61,7 @@ const Sketch_js = () => {
                 <a
                   href="https://github.com/viktoriia-yash/etch-a-sketch-vanilla-js"
                   className="importantLinks"
+                  rel="noreferrer"
                   target="_blank"
                 >
                   GitHub
@@ -76,4 +78,4 @@ const Sketch_js = () => {
   );
 };
 
-export default Sketch_js;
+export default SketchJs;
