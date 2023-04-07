@@ -48,12 +48,12 @@
   }
 
   .importantLinks {
-    @apply underline decoration-1 underline-offset-[3px] hover:text-celectionColor font-bold transition duration-300 ease-in-out;
+    @apply underline decoration-1 underline-offset-[3px] hover:text-celectionColor transition duration-300 ease-in-out;
   }
 
   /* Portfolio Project Pages */
   .containerPortfolioProject {
-    @apply w-full h-[80vh] px-[30px] md:px-[100px] lg:px-[250px] flex flex-col scrolbar overflow-scroll;
+    @apply w-full h-[75vh] px-[30px] md:px-[100px] lg:px-[250px] flex flex-col scrolbar overflow-scroll;
   }
 
   .h2PortfolioProject {
