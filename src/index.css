@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda&family=Mulish:wght@200;600;800&family=Raleway:wght@100;600;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* Basic Settings */
+  * {
+    @apply m-0 p-0 box-border;
+  }
+
+  body {
+    @apply h-screen bg-backgroundColor font-mainFont text-fontColor text-[16px] selection:bg-celectionColor;
+  }
+
+  /* All Pages except for Portfolio Project */
+  .wholePage {
+    @apply w-full flex flex-col justify-center overflow-hidden;
+  }
+
+  .containerWholePage {
+    @apply w-full h-[80vh] px-[30px] md:px-[100px] lg:px-[300px] flex flex-col scrolbar overflow-scroll;
+  }
+
+  .containerContext {
+    @apply pt-16;
+  }
+
+  .h1 {
+    @apply font-accentFont leading-snug lg:leading-tight text-[40px] md:text-[60px] lg:text-[75px];
+  }
+
+  .h2 {
+    @apply font-accentFont text-3xl lg:text-5xl pb-7;
+  }
+
+  .h3 {
+    @apply font-mainFont text-[25px] font-semibold tracking-wide;
+  }
+
+  .textContent {
+    @apply max-w-md lg:max-w-lg;
+  }
+
+  p {
+    @apply pb-2;
+  }
+
+  .importantLinks {
+    @apply underline decoration-1 underline-offset-[3px] hover:text-celectionColor font-bold transition duration-300 ease-in-out;
+  }
+
+  /* Portfolio Project Pages */
+  .containerPortfolioProject {
+    @apply w-full h-[80vh] px-[30px] md:px-[100px] lg:px-[250px] flex flex-col scrolbar overflow-scroll;
+  }
+
+  .h2PortfolioProject {
+    @apply font-accentFont text-3xl lg:text-5xl pb-7 leading-normal;
+  }
+
+  .containerContextPortfolioProject {
+    @apply flex flex-col lg:flex-row gap-x-20 gap-y-8 justify-between;
+  }
+}
+
+.scrolbar::-webkit-scrollbar {
+  display: none;
+}
