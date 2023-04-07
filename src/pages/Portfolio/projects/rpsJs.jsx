@@ -59,10 +59,7 @@ const RpsJs = () => {
               </p>
             </div>
             <div className="max-w-[300px]">
-              <img
-                src={RPSJSPreview}
-                alt="Rock Paper Scissors JS Preview Image"
-              />
+              <img src={RPSJSPreview} alt="Rock Paper Scissors JS Preview" />
             </div>
           </div>
         </div>

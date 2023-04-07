@@ -68,10 +68,7 @@ const DictionaryReact = () => {
               </p>
             </div>
             <div className="max-w-[300px]">
-              <img
-                src={DictionaryPreview}
-                alt="Dictionary React Preview Image"
-              />
+              <img src={DictionaryPreview} alt="Dictionary React Preview" />
             </div>
           </div>
         </div>

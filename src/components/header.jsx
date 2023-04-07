@@ -22,7 +22,7 @@ const Header = () => {
     <header className="relative w-full h-[130px] flex items-center px-[30px] lg:px-[200px] z-30 font-accentFont">
       <div className="w-full flex flex-row justify-between border-fontColor border-b-2">
         <Link to={"/"} className="pb-5">
-          <img src={Logo} className="max-w-[75px]" />
+          <img src={Logo} className="max-w-[75px]" alt="website's logo"/>
         </Link>
 
         <nav className="flex items-center">

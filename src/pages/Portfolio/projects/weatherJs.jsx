@@ -80,10 +80,7 @@ const WeatherJs = () => {
               </p>
             </div>
             <div className="max-w-[300px]">
-              <img
-                src={WeatherJSPreview}
-                alt="Weather JS Project Preview Image"
-              />
+              <img src={WeatherJSPreview} alt="Weather JS Project Preview" />
             </div>
           </div>
         </div>

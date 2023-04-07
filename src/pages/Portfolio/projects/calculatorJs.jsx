@@ -59,7 +59,7 @@ const CalculatorJs = () => {
             <div className="max-w-[300px]">
               <img
                 src={CalculatorPreview}
-                alt="Calculator JS Project Preview Image"
+                alt="Calculator JS Project Preview"
               />
             </div>
           </div>

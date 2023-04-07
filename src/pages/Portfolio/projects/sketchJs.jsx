@@ -37,6 +37,7 @@ const SketchJs = () => {
                 <a
                   href="https://unsplash.com/photos/aYEUXnVG8tg"
                   className="importantLinks"
+                  rel="noreferrer"
                   target="_blank"
                 >
                   Background image
@@ -69,7 +70,7 @@ const SketchJs = () => {
               </p>
             </div>
             <div className="max-w-[300px]">
-              <img src={SketchJsPreview} alt="Etch-A-Sketch JS Preview Image" />
+              <img src={SketchJsPreview} alt="Etch-A-Sketch JS Preview" />
             </div>
           </div>
         </div>

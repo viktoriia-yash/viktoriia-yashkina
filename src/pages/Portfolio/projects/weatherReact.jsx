@@ -36,6 +36,7 @@ const WeatherReact = () => {
                 <a
                   href="https://openweathermap.org/"
                   className="importantLinks"
+                  rel="noreferrer"
                   target="_blank"
                 >
                   OpenWeatherMap
@@ -47,6 +48,7 @@ const WeatherReact = () => {
                 <a
                   href="https://unsplash.com/photos/NpF9JLGYfeQ"
                   className="importantLinks"
+                  rel="noreferrer"
                   target="_blank"
                 >
                   Background image
@@ -91,10 +93,7 @@ const WeatherReact = () => {
               </p>
             </div>
             <div className="max-w-[300px]">
-              <img
-                src={WeatherReactPreview}
-                alt="Weather React Preview Image"
-              />
+              <img src={WeatherReactPreview} alt="Weather React Preview" />
             </div>
           </div>
         </div>
