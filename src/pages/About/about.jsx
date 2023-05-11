@@ -21,9 +21,9 @@ const Home = () => {
           <div className="flex flex-col lg:flex-row items-center justify-between gap-x-[3rem]">
             <div className="textContent">
               <p>
-                Hello! I am Viktoriia, an Italy-based 26 years old Ukrainian.
-                Currently, I am working on becoming a web developer. Forced to
-                live in two different countries - Italy and Ukraine.
+                Hello! I am Viktoriia, 26 years old Ukrainian. Currently, I am
+                working on becoming a web developer. Forced to live in two
+                different countries - Italy and Ukraine.
               </p>
               <p>
                 My interest in coding started thanks to Tumblr and peaked in
@@ -38,10 +38,9 @@ const Home = () => {
                 several jobs, and left my country because of war.
               </p>
               <p>
-                I am on the way to achieving my dream now. I already took
-                several online courses and gained basic front-end skills. I'm
-                increasingly sure that coding is what I would like to do for the
-                rest of my life. Now I am focused on learning SQL and MySQL.
+                I am on the way to achieving my dream now. I'm increasingly sure
+                that coding is what I would like to do for the rest of my life.
+                Now I am focused on learning SQL and MySQL.
               </p>
             </div>
             <div className="max-w-[200px]">
