@@ -22,8 +22,8 @@ const Home = () => {
             <div className="textContent">
               <p>
                 Hello! I am Viktoriia, 26 years old Ukrainian. Currently, I am
-                working on becoming a web developer. Forced to live in two
-                different countries - Italy and Ukraine.
+                working on becoming a web developer. Because of war, I am living
+                in two countries – Italy and Ukraine.
               </p>
               <p>
                 My interest in coding started thanks to Tumblr and peaked in

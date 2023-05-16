@@ -19,10 +19,10 @@ const Header = () => {
   const [openMenu, setOpenMenu] = useState(false);
 
   return (
-    <header className="relative w-full h-[130px] flex items-center px-[30px] lg:px-[200px] z-30 font-accentFont">
-      <div className="w-full flex flex-row justify-between border-fontColor border-b-2">
+    <header className="relative w-full h-[130px] flex items-center px-[30px] lg:px-[200px] z-30 font-accentFont text-headerColor">
+      <div className="w-full flex flex-row justify-between border-headerColor border-b-[1px]">
         <Link to={"/"} className="pb-5">
-          <img src={Logo} className="max-w-[75px]" alt="website's logo"/>
+          <img src={Logo} className="max-w-[75px]" alt="website's logo" />
         </Link>
 
         <nav className="flex items-center">
@@ -41,12 +41,12 @@ const Header = () => {
           >
             <div
               onClick={() => setOpenMenu(false)}
-              className="absolute top-12 lg:top-12 right-2 lg:right-28 z-30 text-lg md:text-2xl cursor-pointer px-[30px] lg:px-[100px]"
+              className="absolute top-12 right-2 lg:right-28 z-30 text-lg md:text-2xl cursor-pointer px-[30px] lg:px-[100px]"
             >
               <p>close</p>
             </div>
 
-            <ul className="h-full flex flex-col justify-center items-center gap-y-5 text-3xl lg:text-5xl">
+            <ul className="h-full flex flex-col justify-center items-center gap-y-10 text-3xl lg:text-5xl">
               <li>
                 <Link to="/" onClick={() => setOpenMenu(false)}>
                   home

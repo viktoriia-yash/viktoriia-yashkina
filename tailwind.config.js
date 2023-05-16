@@ -17,8 +17,9 @@ module.exports = {
       colors: {
         backgroundColor: "#F6F6F6",
         fontColor: "#191825",
-        accentColor: "#C490E4",
-        celectionColor: "#FFD966",
+        accentColor: "#E8A0BF",
+        headerColor: "#BA90C6",
+        celectionColor: "#C0DBEA",
       },
     },
   },

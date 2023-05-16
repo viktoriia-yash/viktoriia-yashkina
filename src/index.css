@@ -40,7 +40,7 @@
   }
 
   .textContent {
-    @apply max-w-md lg:max-w-lg;
+    @apply max-w-md lg:max-w-[31rem];
   }
 
   p {
